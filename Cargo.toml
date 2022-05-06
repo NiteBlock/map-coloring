@@ -1,0 +1,14 @@
+[package]
+edition = "2021"
+name = "map-coloring"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+eframe = "0.17.0"
+egui = "0.17.0"
+epi = "0.17.0"
+glob = "0.3.0"
+serde = {version = "1.0", features = ["derive"]}
+toml = "0.5.9"
